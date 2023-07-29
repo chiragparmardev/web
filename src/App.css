@@ -1,0 +1,62 @@
+.Education_text_main {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.btn_download_cv {
+  display: none;
+}
+
+.sendbutton {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #c147e9;
+  background-color: transparent;
+  color: #c147e9;
+  font-weight: bold;
+  margin-top: 1.5%;
+  margin-bottom: 50px;
+}
+
+.sendbutton:hover {
+  box-shadow: 0px 0px 10px 3px #c147e9;
+  color: white;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 780px) {
+  .Education_text_main {
+    font-size: 4rem;
+  }
+  .btn_download_cv {
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 8px 40px;
+    border-radius: 10px;
+    border: 2px solid #c147e9;
+    color: #c147e9;
+    font-weight: bold;
+    margin-top: 1.5%;
+  }
+  .btn_download_cv:hover {
+    box-shadow: 0px 0px 20px 3px #c147e9;
+    color: white;
+    transition: 0.5s;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Education_text_main {
+    font-size: 3rem;
+  }
+  .sendbutton {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 275px) {
+  .Education_text_main {
+    font-size: 2rem;
+  }
+}
