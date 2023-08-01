@@ -35,7 +35,7 @@ export default function Education() {
         <Vtimeline
           std="M.C.A"
           city="Gujarat"
-          year="2011 - present"
+          year="2023 - present"
           desc="In addition to my focus on becoming a full stack developer, my Master of Computer Applications (MCA) program provided me with a comprehensive understanding of various subjects. I delved into advanced topics such as software engineering, data structures and algorithms, artificial intelligence, mobile app development, and data analytics. This in-depth knowledge across multiple subjects enriches my skill set and equips me to tackle complex challenges in the software development field."
         />
       </VerticalTimeline>
