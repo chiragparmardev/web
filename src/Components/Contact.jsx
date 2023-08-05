@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   const [success, setSuccess] = useState(false);
@@ -63,6 +65,13 @@ export default function Contact() {
             user_email: "",
             message: "",
           });
+          toast("Thanks for contacting me! I will contact you soon.", {
+            type: "success",
+            style: {
+              marginTop: "60px",
+            },
+            autoClose: 3000, // 3 seconds
+          });
         },
         (error) => {
           console.log(error.text);
@@ -115,7 +124,9 @@ export default function Contact() {
               value={formData.user_name}
               onChange={handleChange}
             />
-            {errors.user_name && <p>{errors.user_name}</p>}
+            {errors.user_name && (
+              <p style={{ color: "red" }}>{errors.user_name}</p>
+            )}
             <input
               type="email"
               name="user_email"
@@ -125,7 +136,9 @@ export default function Contact() {
               value={formData.user_email}
               onChange={handleChange}
             />
-            {errors.user_email && <p>{errors.user_email}</p>}
+            {errors.user_email && (
+              <p style={{ color: "red" }}>{errors.user_email}</p>
+            )}
             <textarea
               name="message"
               className="user"
@@ -134,14 +147,16 @@ export default function Contact() {
               value={formData.message}
               onChange={handleChange}
             ></textarea>
-            {errors.message && <p>{errors.message}</p>}
-            <input type="submit" value="Send" className="button sendbutton" />
-            <p>
+            {errors.message && <p style={{ color: "red" }}>{errors.message}</p>}
+
+            <p style={{ color: "#c147e9" }}>
               {success && "Thanks for contacting me! I will contact you soon."}
             </p>
+            <input type="submit" value="Send" className="button sendbutton" />
           </form>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 }
