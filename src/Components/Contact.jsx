@@ -70,7 +70,7 @@ export default function Contact() {
             style: {
               marginTop: "60px",
             },
-            autoClose: 3200, // 3 seconds
+            autoClose: 3000, // 3 seconds
           });
         },
         (error) => {
