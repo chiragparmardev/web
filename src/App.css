@@ -25,6 +25,13 @@
   transition: 0.5s;
 }
 
+/* i want to if i hover a card so trans fom y-10px and not efect on inner container(div) just transform card */
+#cardhover:hover {
+  transform: translateY(-15px);
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 2px #c147e9;
+}
+
 @media only screen and (max-width: 780px) {
   .Education_text_main {
     font-size: 4rem;
