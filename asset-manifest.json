@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/web/static/css/main.4325cc86.css",
+    "main.js": "/web/static/js/main.1b5516b5.js",
+    "static/js/787.d81a0224.chunk.js": "/web/static/js/787.d81a0224.chunk.js",
+    "static/media/Resume.pdf": "/web/static/media/Resume.061ed411c38b2ff44eb6.pdf",
+    "static/media/img2.png": "/web/static/media/img2.25bb5b7b96f34d5fb70f.png",
+    "static/media/logo.png": "/web/static/media/logo.16246c045575b45500af.png",
+    "static/media/laravel.png": "/web/static/media/laravel.26a03d39d80251dda9e0.png",
+    "static/media/react.png": "/web/static/media/react.c4349c173440794ddf9c.png",
+    "static/media/next.png": "/web/static/media/next.48ddc8121a0fcb543d64.png",
+    "static/media/flutter.png": "/web/static/media/flutter.23527db10f755a533946.png",
+    "index.html": "/web/index.html",
+    "main.4325cc86.css.map": "/web/static/css/main.4325cc86.css.map",
+    "main.1b5516b5.js.map": "/web/static/js/main.1b5516b5.js.map",
+    "787.d81a0224.chunk.js.map": "/web/static/js/787.d81a0224.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4325cc86.css",
+    "static/js/main.1b5516b5.js"
+  ]
+}
